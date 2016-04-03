@@ -1,9 +1,38 @@
-body {
-
-/*	background-color: #ff0000; New company color
-
-	/*This is a comment line in a css file.*/
-*/
-
-
+#computers {
+	font-family: Arial;
+	margin: 100px 0;
+	border: 1px solid #333333;
+	border-collapse: collapse;
+	don't add min-width: ; /*because the table will lose it's flexibility  */
+}
+#computers caption {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+#computers th {
+	background-color: #3498db;
+	color: white;
+	padding: 5px 10px;
+	border: 1px solid #2980b9;
+}
+#computers td:first-child {
+	font-weight: bold;
+}
+#computers tr:nth-child(2n) {
+	background-color: #dddddd;
+}
+#computers td {
+	padding: 10px;
+}
+#computers tr:hover {
+	background-color: pink;    /*  background color of the row  */
+	color: white;              /*  text on the row turns white  */
+}
+#cpu-pro,
+#cpu-standard {
+	width: 70px;
+}
+#computers td:nth-child(3),
+#computers td:nth-child(4) {
+	text-align: center;
 }
